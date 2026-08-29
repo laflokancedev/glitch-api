@@ -1,8 +1,9 @@
 {
   "name": "glitch-api",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
-    "start": "npx serve ."
-  }
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {}
 }
